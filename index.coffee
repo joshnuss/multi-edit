@@ -1,6 +1,10 @@
 express = require('express')
-app = express()
+app     = express()
+server  = require('http').Server(app)
+io      = require('socket.io')(server)
+
+server.listen(3031)
 
 app.use(express.static(__dirname + '/www'))
 
-app.listen(3031)
+io.on 'connection', (socket) ->
