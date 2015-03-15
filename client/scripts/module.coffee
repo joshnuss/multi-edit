@@ -1,1 +1,1 @@
-angular.module('MultiUser', [])
+angular.module('MultiUser', ['ngAnimate'])
