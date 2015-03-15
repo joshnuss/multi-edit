@@ -23,6 +23,7 @@ paths =
     includes: [
       'bower_components/angular/angular.js'
       'bower_components/angular-animate/angular-animate.js'
+      'bower_components/angular-socket-io/socket.js'
     ]
   templates:
     source: ["client/views/**/*.jade"]
