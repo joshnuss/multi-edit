@@ -5,6 +5,9 @@ html
     link(rel="stylesheet" href="/css/app.css")
 
   body(ng-app='MultiEdit')
+    header(ng-controller='HeaderController')
+      span.title(ng-bind='layout.title')
+
     p {{1+1}}
 
     script(src="/socket.io/socket.io.js")
