@@ -1,2 +1,2 @@
-angular.module('MultiUser').factory 'Socket', (socketFactory) ->
+angular.module('MultiEdit').factory 'Socket', (socketFactory) ->
   socketFactory()

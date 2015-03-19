@@ -1,1 +1,1 @@
-angular.module('MultiUser', ['ngAnimate', 'btford.socket-io'])
+angular.module('MultiEdit', ['ngAnimate', 'btford.socket-io'])
