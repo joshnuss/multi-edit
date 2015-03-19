@@ -21,9 +21,11 @@ paths =
     dest: './www/js'
   javascript:
     includes: [
-      'bower_components/angular/angular.js'
-      'bower_components/angular-animate/angular-animate.js'
-      'bower_components/angular-socket-io/socket.js'
+      'client/lib/jquery/dist/jquery.js'
+      'client/lib/bootstrap-sass-official/assets/javascripts/bootstrap.js'
+      'client/lib/angular/angular.js'
+      'client/lib/angular-animate/angular-animate.js'
+      'client/lib/angular-socket-io/socket.js'
     ]
   templates:
     source: ["client/views/**/*.jade"]
